@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Wrappers around BEP20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeBEP20 for IBEP20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.",
+			"kind": "dev",
+			"methods": {},
+			"title": "SafeBEP20",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/pancakenfts/BunnyMintingFarm.sol": "SafeBEP20"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/pancakenfts/BunnyMintingFarm.sol": {
+			"keccak256": "0x520f6b2e7a66c501ec1fee2f86a12f11a283df7521e2707111c3500e4adc4098",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://1e3cf7490e1af3e68b9b3be1851354ae7a769ebfa7517de7588e7df20c012abe",
+				"dweb:/ipfs/QmRjYXV6cy1NDNsHnHox6XJen9uyxnWPAXfduBVDXSzcbY"
+			]
+		}
+	},
+	"version": 1
+}
